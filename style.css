@@ -33,7 +33,8 @@ Template: getaway
 }
 
 .inner .map-image-container span a {
-    color:  red;
+    color:  white;
+    font-size: 13px;
 }
 .inner .map-image-container span {
     position: absolute;    

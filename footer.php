@@ -1,16 +1,16 @@
 <script type="text/javascript">
 	 document.addEventListener('DOMContentLoaded', function(){
 		let countries = [
-			{title:"North America", link:"#", left: '77px', top: '190px'},
-			{title:"Europe", link:"#", left: '297px', top: '170px'},
-			{title:"Caribbean", link:'#', left: '157px', top: '240px'},
-			{title:"Central & South America", link:'#', left: '100px', top: '310px'},
-			{title:"Polar Regions", link:'#', left: '250px', top: '380px'},
-			{title:"Africa", link:'#', left: '310px', top: '260px'},
-			{title:"Arabia", link:'#', left: '360px', top: '220px'},
-			{title:"Asia", link:'#', left: '460px', top: '150px'},
-			{title:"Indian Ocean", link:'#', left: '400px', top: '310px'},
-			{title:"Australia & South Pacific", link:'#', left: '500px', top: '190px'}
+			{title:"North America", link:"/destinations/north-america", left: '77px', top: '190px'},
+			{title:"Europe", link:"/destinations/europe", left: '297px', top: '170px'},
+			{title:"Caribbean", link:'/destinations/caribbean', left: '157px', top: '240px'},
+			{title:"Central & South America", link:'/destinations/central-and-south-america', left: '100px', top: '310px'},
+			{title:"Polar Regions", link:'/destinations/polar-regions', left: '250px', top: '380px'},
+			{title:"Africa", link:'/destinations/africa', left: '310px', top: '260px'},
+			{title:"Arabia", link:'/destinations/arabia', left: '360px', top: '220px'},
+			{title:"Asia", link:'/destinations/asia', left: '460px', top: '150px'},
+			{title:"Indian Ocean", link:'/destinations/indian-ocean', left: '400px', top: '310px'},
+			{title:"Australia & South Pacific", link:'/destinations/australia-and-south-pacific', left: '500px', top: '190px'}
 		];
 		let dropdown = document.querySelector('.no_link + div > .inner');
 		let img = document.createElement('img');
