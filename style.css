@@ -1,0 +1,40 @@
+/*
+Theme Name: Getaway Child
+Theme URI: http://getaway.select-themes.com
+Description: A child theme of Getaway Theme
+Author: Select Themes
+Author URI: http://themeforest.net/user/select-themes
+Version: 1.0.0
+Text Domain: getaway
+Template: getaway
+*/
+
+
+/*.qodef-drop-down .second {
+    height: auto !important;
+    overflow: hidden;
+    visibility: visible !important;
+    opacity: 1 !important;
+}*/
+
+.qodef-drop-down .wide div.second .inner>ul {
+    width: 50%;
+    display: flex;
+    flex-flow: row wrap;
+    padding-left: 80px;
+}
+.qodef-drop-down .wide .second div.inner {
+	display: flex;
+}
+.map-image-container {
+    width: 50%;
+    min-height: 400px;
+    position: relative;
+}
+
+.inner .map-image-container span a {
+    color:  red;
+}
+.inner .map-image-container span {
+    position: absolute;    
+}
