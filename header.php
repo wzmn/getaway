@@ -15,11 +15,11 @@
 	<style type="text/css">
 		.CoronaBanner__Container {
 		    position: fixed;
-		    z-index: 110;
+		    z-index: 109;
 		    background: #ffc132;
 		    right: 10px;
 		    top: 130px;
-		    height: 72px;
+		    height: 55px;
 			border-radius: 10px;
 			box-shadow:0px 0px 5px 0px #463f3f;
 		}
@@ -32,7 +32,7 @@
 			height: 100%;
 		}
 		.CoronaBanner__NavigateClickContainer > div {
-		    padding: 0 10px;
+		    padding: 0 5px;
 		    height: 100%;
 		    align-items: center;
 		    justify-content: center;
@@ -41,7 +41,7 @@
 		    max-width: 200px;
 		}
 		.CoronaBanner__PreText {
-			font-size: 14px;
+			font-size: 12px;
 		    font-weight: 600;
 		    opacity: 0.5;
 		    margin: 0px;
@@ -51,7 +51,7 @@
 			font-weight: 800;
 		    opacity: 0.75;
 		    margin: -6px 0px 0px;
-		    font-size: 19px;
+		    font-size: 16px;
 		    align-self: flex-start;
 		    color: black;
 		}

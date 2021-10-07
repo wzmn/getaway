@@ -15,7 +15,7 @@
 		let dropdown = document.querySelector('.no_link + div > .inner');
 		let img = document.createElement('img');
 		let div = document.createElement('div');
-		img.setAttribute('src', 'https://luxtripper-images.b-cdn.net/aHR0cHM6Ly9sdXh0cmlwcGVyaW1hZ2VzLmJsb2IuY29yZS53aW5kb3dzLm5ldC9zdGF0aWMvbWFwLWRhcmtfdmt0ZG5y.png');
+		img.setAttribute('src', theme.theme_dir + 'map.webp');
 		div.classList.add('map-image-container');
 		div.prepend(img);
 		countries.forEach((item, index)=>{
