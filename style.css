@@ -64,10 +64,12 @@ body.getaway, body.getaway h5, .qodef-side-menu .widget.widget_archive, .qodef-s
     color: white;
 }
 .qodef-page-header .qodef-menu-area .qodef-logo-wrapper a[href] {
-    max-height: 120px;
-    margin-top: 10px;
+margin-left: 10px;
+    padding: 10px 15px;
     background: white;
-    padding: 10px;
+    display: flex;
+    height: auto !important;
+    max-height: unset;
 }
 .qodef-mobile-header .qodef-mobile-logo-wrapper a[href] {
     max-height: 50px;
@@ -91,4 +93,16 @@ body.getaway, body.getaway h5, .qodef-side-menu .widget.widget_archive, .qodef-s
 }
 .qodef-vertical-align-containers div.qodef-position-center {
     z-index: 2;
+}
+
+.qodef-vertical-align-containers .qodef-position-left {
+    max-width: 200px;
+    display: flex;
+}
+
+
+@media only screen and (max-width: 1280px) {
+    header.qodef-page-header .qodef-vertical-align-containers {
+        padding: 0;
+    }
 }
