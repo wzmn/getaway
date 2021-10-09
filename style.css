@@ -64,7 +64,7 @@ body.getaway, body.getaway h5, .qodef-side-menu .widget.widget_archive, .qodef-s
     color: white;
 }
 .qodef-page-header .qodef-menu-area .qodef-logo-wrapper a[href] {
-margin-left: 10px;
+    margin-left: 10px;
     padding: 10px 15px;
     background: white;
     display: flex;
@@ -98,6 +98,10 @@ margin-left: 10px;
 .qodef-vertical-align-containers .qodef-position-left {
     max-width: 200px;
     display: flex;
+}
+
+.wp-block-social-links li.wp-social-link.wp-social-link.wp-social-link {
+    padding: 0;
 }
 
 
