@@ -63,14 +63,15 @@ body.getaway, body.getaway h5, .qodef-side-menu .widget.widget_archive, .qodef-s
 .qodef-sidearea h1, .qodef-sidearea h2, .qodef-sidearea h3, .qodef-sidearea h4, .qodef-sidearea h5, .qodef-sidearea h6 {
     color: white;
 }
-.qodef-page-header .qodef-menu-area .qodef-logo-wrapper a[href] {
-    margin-left: 10px;
-    padding: 10px 15px;
-    background: white;
+/*div.qodef-logo-wrapper {
     display: flex;
-    height: auto !important;
-    max-height: unset;
+    height: 100%;
+    align-items: center;
 }
+.qodef-page-header .qodef-menu-area .qodef-logo-wrapper a[href] {
+    height: auto !important;
+    max-width: 120px;
+}*/
 .qodef-mobile-header .qodef-mobile-logo-wrapper a[href] {
     max-height: 50px;
 }
@@ -104,7 +105,13 @@ body.getaway, body.getaway h5, .qodef-side-menu .widget.widget_archive, .qodef-s
     padding: 0;
 }
 
+.qodef-iwt.qodef-iwt-icon-left {
+    text-align: center;
+}
 
+header.qodef-page-header .qodef-vertical-align-containers {
+    padding: 0 0 0 50px;
+}
 @media only screen and (max-width: 1280px) {
     header.qodef-page-header .qodef-vertical-align-containers {
         padding: 0;
