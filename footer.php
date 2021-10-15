@@ -12,12 +12,13 @@
 			{title:"Indian Ocean", link:'/destinations/indian-ocean', left: '300px', top: '230px'},
 			{title:"Australia & South Pacific", link:'/destinations/australia-and-south-pacific', left: '400px', top: '250px'}
 		];
-		let dropdown = document.querySelector('.no_link + div > .inner');
+		let dropdowns = document.querySelectorAll('.no_link + div > .inner');
+		
 		let img = document.createElement('img');
-		let div = document.createElement('div');
+		let map_div = document.createElement('div');
 		img.setAttribute('src', theme.theme_dir + 'map.webp');
-		div.classList.add('map-image-container');
-		div.prepend(img);
+		map_div.classList.add('map-image-container');
+		map_div.prepend(img);
 		countries.forEach((item, index)=>{
 			let span = document.createElement('span');
 			let a = document.createElement('a');
@@ -28,13 +29,17 @@
 			a.innerText = item.title;
 			a.classList.add('map-link')
 			span.appendChild(a);
-			div.appendChild(span);
+			map_div.appendChild(span);
 		})
-		dropdown.appendChild(div);
+		dropdowns.forEach(function(item, index){
+			item.appendChild(map_div.cloneNode(true))
+			console.log(item)
+		})
+		
 	}) 
 </script>
-
 <?php do_action( 'getaway_qodef_get_footer_template' );
 
 global $getaway_qodef_toolbar;
 if(isset($getaway_qodef_toolbar)) include("toolbar.php");
+

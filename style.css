@@ -86,6 +86,11 @@ body.getaway, body.getaway h5, .qodef-side-menu .widget.widget_archive, .qodef-s
     text-align: center;
     margin-bottom: 25px;
 }
+
+.qodef-iwt.qodef-iwt-icon-left div.qodef-iwt-icon img {
+    max-width: 100px;
+}
+
 .qodef-iwt.qodef-iwt-icon-left div.qodef-iwt-content {
     padding: 0;
 }
