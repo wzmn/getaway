@@ -33,7 +33,6 @@
 		})
 		dropdowns.forEach(function(item, index){
 			item.appendChild(map_div.cloneNode(true))
-			console.log(item)
 		})
 		
 	}) 
