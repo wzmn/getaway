@@ -10,12 +10,12 @@ Template: getaway
 */
 
 
-/*.qodef-drop-down .second {
+.qodef-drop-down .second {
     height: auto !important;
-    overflow: hidden;
+    /*overflow: hidden;
     visibility: visible !important;
-    opacity: 1 !important;
-}*/
+    opacity: 1 !important;*/
+}
 
 .qodef-drop-down .wide div.second .inner>ul {
     width: 50% !important;
@@ -116,4 +116,9 @@ header.qodef-page-header .qodef-vertical-align-containers {
     header.qodef-page-header .qodef-vertical-align-containers {
         padding: 0;
     }
+}
+
+div.qodef-main-menu>ul>li>a {
+    padding: 0 15px;
+    font-size: 14px;
 }

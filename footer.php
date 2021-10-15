@@ -1,16 +1,16 @@
 <script type="text/javascript">
 	 document.addEventListener('DOMContentLoaded', function(){
 		let countries = [
-			{title:"North America", link:"/destinations/north-america", left: '77px', top: '190px'},
-			{title:"Europe", link:"/destinations/europe", left: '297px', top: '170px'},
-			{title:"Caribbean", link:'/destinations/caribbean', left: '157px', top: '240px'},
-			{title:"Central & South America", link:'/destinations/central-and-south-america', left: '100px', top: '310px'},
-			{title:"Polar Regions", link:'/destinations/polar-regions', left: '250px', top: '380px'},
-			{title:"Africa", link:'/destinations/africa', left: '310px', top: '260px'},
-			{title:"Arabia", link:'/destinations/arabia', left: '360px', top: '220px'},
-			{title:"Asia", link:'/destinations/asia', left: '460px', top: '150px'},
-			{title:"Indian Ocean", link:'/destinations/indian-ocean', left: '400px', top: '310px'},
-			{title:"Australia & South Pacific", link:'/destinations/australia-and-south-pacific', left: '500px', top: '190px'}
+			{title:"North America", link:"/destinations/north-america", left: '70px', top: '140px'},
+			{title:"Europe", link:"/destinations/europe", left: '240px', top: '140px'},
+			{title:"Caribbean", link:'/destinations/caribbean', left: '130px', top: '190px'},
+			{title:"Central & South America", link:'/destinations/central-and-south-america', left: '80px', top: '230px'},
+			{title:"Polar Regions", link:'/destinations/polar-regions', left: '180px', top: '290px'},
+			{title:"Africa", link:'/destinations/africa', left: '245px', top: '200px'},
+			{title:"Arabia", link:'/destinations/arabia', left: '280px', top: '180px'},
+			{title:"Asia", link:'/destinations/asia', left: '350px', top: '120px'},
+			{title:"Indian Ocean", link:'/destinations/indian-ocean', left: '300px', top: '230px'},
+			{title:"Australia & South Pacific", link:'/destinations/australia-and-south-pacific', left: '400px', top: '250px'}
 		];
 		let dropdown = document.querySelector('.no_link + div > .inner');
 		let img = document.createElement('img');
