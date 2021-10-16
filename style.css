@@ -121,6 +121,10 @@ a.qodef-icon-widget-holder {
     display: block;
 }
 
+.widget.qodef-footer-column-4.widget_block {
+        margin-bottom: 0;
+}
+
 @media only screen and (max-width: 1280px) {
     header.qodef-page-header .qodef-vertical-align-containers {
         padding: 0;
