@@ -112,7 +112,7 @@ body.getaway, body.getaway h5, .qodef-side-menu .widget.widget_archive, .qodef-s
 }
 
 header.qodef-page-header .qodef-vertical-align-containers {
-    padding: 0 0 0 50px;
+    padding: 0 0 0 50px !important;
 }
 header.qodef-sticky-header .qodef-sticky-holder .qodef-vertical-align-containers {
     padding: 0 0 0 50px !important;
