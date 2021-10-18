@@ -1,16 +1,16 @@
 <script type="text/javascript">
 	 document.addEventListener('DOMContentLoaded', function(){
 		let countries = [
-			{title:"North America", link:"/destinations/north-america", left: '70px', top: '140px'},
-			{title:"Europe", link:"/destinations/europe", left: '240px', top: '140px'},
-			{title:"Caribbean", link:'/destinations/caribbean', left: '130px', top: '190px'},
-			{title:"Central & South America", link:'/destinations/central-and-south-america', left: '80px', top: '230px'},
-			{title:"Polar Regions", link:'/destinations/polar-regions', left: '180px', top: '290px'},
-			{title:"Africa", link:'/destinations/africa', left: '245px', top: '200px'},
-			{title:"Arabia", link:'/destinations/arabia', left: '280px', top: '180px'},
-			{title:"Asia", link:'/destinations/asia', left: '350px', top: '120px'},
-			{title:"Indian Ocean", link:'/destinations/indian-ocean', left: '300px', top: '230px'},
-			{title:"Australia & South Pacific", link:'/destinations/australia-and-south-pacific', left: '400px', top: '250px'}
+			{title:"North America", link:"/destinations/north-america", left: '90px', top: '210px'},
+			{title:"Europe", link:"/destinations/europe", left: '350px', top: '230px'},
+			{title:"Caribbean", link:'/destinations/caribbean', left: '190px', top: '290px'},
+			{title:"Central & South America", link:'/destinations/central-and-south-america', left: '150px', top: '360px'},
+			{title:"Polar Regions", link:'/destinations/polar-regions', left: '280px', top: '450px'},
+			{title:"Africa", link:'/destinations/africa', left: '375px', top: '300px'},
+			{title:"Arabia", link:'/destinations/arabia', left: '430px', top: '280px'},
+			{title:"Asia", link:'/destinations/asia', left: '540px', top: '170px'},
+			{title:"Indian Ocean", link:'/destinations/indian-ocean', left: '4710px', top: '360px'},
+			{title:"Australia & South Pacific", link:'/destinations/australia-and-south-pacific', left: '550px', top: '380px'}
 		];
 		let dropdowns = document.querySelectorAll('.no_link + div > .inner');
 		
