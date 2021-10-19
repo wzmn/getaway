@@ -21,13 +21,38 @@ Template: getaway
     width: 25% !important;
     display: flex;
     flex-flow: column;
-    padding-left: 30px;
+    padding-left: 10px;
+    padding-bottom: 0px;
+}
+.qodef-drop-down .wide div.second .inner>ul>li {
+    width: 100%;
+    max-height: 40px;
+    display: flex;
+    align-items: center;
+}
+.qodef-drop-down .wide div.second .inner>ul>li>a {
+    padding: 0;
+}
+.qodef-drop-down .wide .second .inner>ul>li:nth-child(1) {
+    border: 1px solid white;
+    padding: 15px 10px;
+    margin-bottom: 10px;
+    height: auto !important;
+    max-height: unset;
+}
+.qodef-drop-down .wide .second .inner>ul>li:nth-child(1) a {
+    font-size: 18px;
 }
 .map-image-container {
     width: 75%;
     min-height: 25em;
     position: relative;
     font-size: 14px;
+    overflow: hidden;
+}
+.map-image-container img {
+    top: -60px;
+    position: relative;
 }
 
 .qodef-drop-down .wide .second div.inner {
@@ -36,6 +61,7 @@ Template: getaway
     max-width: 1000px;
     margin: 0 auto;
     padding: 0 50px;
+    border-bottom: 5px solid #ffe500;
 }
 .qodef-drop-down .wide .second div.inner:before {
 /*    content: " ";
@@ -132,6 +158,61 @@ footer .widget ul.menu li {
 }
 footer .widget ul.menu li {
 
+}
+
+#fixed-whatsapp {
+    position: fixed;
+    width: 40px;
+    right: 25px;
+    bottom: 75px;
+    margin: 0;
+    z-index: 10000;
+    opacity: 0;
+    visibility: hidden;
+}
+#fixed-whatsapp span {
+    position: relative;
+    display: block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 15px;
+    text-align: center;
+    color: white;
+    background-color: #25d366;
+    overflow: hidden;
+}
+
+
+#fixed-call {
+    position: fixed;
+    width: 40px;
+    right: 25px;
+    bottom: 125px;
+    margin: 0;
+    z-index: 10000;
+    opacity: 0;
+    visibility: hidden;
+}
+#fixed-call span {
+    position: relative;
+    display: block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 15px;
+    text-align: center;
+    color: #000;
+    background-color: #ffe500;
+    overflow: hidden;
+}
+
+#fixed-call.on, #fixed-whatsapp.on{
+    opacity: 1;
+    visibility: visible;
+    -webkit-transition: opacity .3s ease;
+    -o-transition: opacity .3s ease;
+    transition: opacity .3s ease;
 }
 
 .qodef-column-content a.qodef-icon-widget-holder {
