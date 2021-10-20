@@ -32,7 +32,7 @@
 			height: 100%;
 		}
 		.CoronaBanner__NavigateClickContainer > div {
-		    padding: 0 5px;
+		    padding: 0 10px;
 		    height: 100%;
 		    align-items: center;
 		    justify-content: center;

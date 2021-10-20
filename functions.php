@@ -33,9 +33,7 @@ if ( ! function_exists( 'getaway_qodef_whatsapp_button' ) ) {
 	function getaway_qodef_whatsapp_button() {
 		if ( getaway_qodef_options()->getOptionValue( 'show_back_button' ) == 'yes' ) { ?>
             <a id='fixed-whatsapp' href='https://web.whatsapp.com/send?phone=919205312142&text=Hi!' target="_blank">
-                <span class="qodef-icon-stack">
-					<i class="qodef-icon-font-awesome fa <?php echo getaway_qodef_icon_collections()->iconCollections['font_awesome']->icons['fa-whatsapp']; ?> "></i>
-                </span>
+            	<img src="<?php echo get_stylesheet_directory_uri(). '/assets/whatsapp.png' ?>">
             </a>
 		<?php }
 	}

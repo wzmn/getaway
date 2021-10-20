@@ -28,20 +28,34 @@ Template: getaway
     width: 100%;
     max-height: 40px;
     display: flex;
+    height: 40px !important;
     align-items: center;
+    padding: 0;
 }
 .qodef-drop-down .wide div.second .inner>ul>li>a {
     padding: 0;
 }
+.qodef-drop-down .wide div.second .inner>ul>li>a:hover {
+    text-decoration: underline;
+}
+
 .qodef-drop-down .wide .second .inner>ul>li:nth-child(1) {
     border: 1px solid white;
-    padding: 15px 10px;
     margin-bottom: 10px;
-    height: auto !important;
+    height: 50px !important;
     max-height: unset;
 }
 .qodef-drop-down .wide .second .inner>ul>li:nth-child(1) a {
     font-size: 18px;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.qodef-drop-down .wide .second .inner>ul>li:nth-child(1) a:hover {
+    background: #ffe500;
+    color: black;
 }
 .map-image-container {
     width: 75%;
@@ -54,6 +68,9 @@ Template: getaway
     top: -60px;
     position: relative;
 }
+footer div.widget {
+    margin: 0 0 25px;
+}
 
 .qodef-drop-down .wide .second div.inner {
 	display: flex;
@@ -62,6 +79,10 @@ Template: getaway
     margin: 0 auto;
     padding: 0 50px;
     border-bottom: 5px solid #ffe500;
+    max-height: 450px;
+}
+.qodef-drop-down .wide .second div.inner a:hover {
+
 }
 .qodef-drop-down .wide .second div.inner:before {
 /*    content: " ";
@@ -76,7 +97,14 @@ Template: getaway
 
 .inner .map-image-container span a {
     color:  white;
+    padding: 5px;
+    border-radius: 2px;
     font-size: 13px;
+    transition: all 0.3s ease;
+}
+.inner .map-image-container span a:hover {
+    background: #ffe500;
+    color: black;
 }
 .inner .map-image-container span {
     position: absolute;    
@@ -169,6 +197,8 @@ footer .widget ul.menu li {
     z-index: 10000;
     opacity: 0;
     visibility: hidden;
+    display: flex;
+    align-items: center;
 }
 #fixed-whatsapp span {
     position: relative;
