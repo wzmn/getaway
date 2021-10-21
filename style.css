@@ -260,3 +260,46 @@ div.qodef-main-menu>ul>li>a {
     padding: 0 15px;
     font-size: 14px;
 }
+
+.fixed-enquire-now {
+    position: fixed;
+    right: 80px;
+    bottom: 24px;
+    background: white;
+    width: 340px;
+    height: 460px;
+    z-index: 0;
+    overflow: auto;
+    padding: 20px;
+    border: 1px solid #868686;
+    border-radius: 5px;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 1s ease;
+}
+.fixed-enquire-now.open {
+    opacity: 1;
+    visibility: visible;
+    z-index: 110;
+}
+.fixed-enquire-now .close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 30px;
+    height: 30px;
+    background: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    cursor: pointer;
+    border-radius: 50%;
+}
+div.wpforms-container-full .wpforms-form input.wpforms-field-medium, div.wpforms-container-full .wpforms-form select.wpforms-field-medium, div.wpforms-container-full .wpforms-form .wpforms-field-row.wpforms-field-medium {
+
+}
+
+.fixed-enquire-now .wpforms-form .wpforms-field-container input.wpforms-field-medium {
+    max-width: initial;
+}
