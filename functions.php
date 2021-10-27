@@ -51,6 +51,7 @@ if ( ! function_exists( 'getaway_qodef_call_button' ) ) {
             <a id='fixed-call' onclick="this.nextElementSibling.classList.add('open')">
                 <span class="qodef-icon-stack">
 					<i class="qodef-icon-font-awesome fa <?php echo getaway_qodef_icon_collections()->iconCollections['font_awesome']->icons['fa-comments']; ?> "></i>
+					<i class="qodef-icon-font-awesome fa <?php echo getaway_qodef_icon_collections()->iconCollections['font_awesome']->icons['fa-question']; ?> "></i>
                 </span>
             </a>
             <div class="fixed-enquire-now">

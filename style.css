@@ -242,6 +242,13 @@ footer .widget ul.menu li {
 #fixed-call span .fa {
     font-size: 1.5rem;
 }
+#fixed-call span .fa-question {
+    position: absolute;
+    top: 13px;
+    left: 14px;
+    color: #ffe500;
+    font-size: 10px;
+}
 #fixed-call.on, #fixed-whatsapp.on{
     opacity: 1;
     visibility: visible;
