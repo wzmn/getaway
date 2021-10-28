@@ -321,3 +321,36 @@ div.wpforms-container-full .wpforms-form input.wpforms-field-medium, div.wpforms
 .fixed-enquire-now .wpforms-form .wpforms-field-container input.wpforms-field-medium {
     max-width: initial;
 }
+.wpcf7-form .flights-enquiry {
+    display: flex;
+    padding: 50px 0 0;
+    flex-flow: row wrap;
+}
+.wpcf7-form .flights-enquiry > label {
+    width: calc(33% - 50px);
+    padding: 0px 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.wpcf7-form .flights-enquiry > label select, .wpcf7-form .flights-enquiry > label input[type='date'] {
+    border: 1px solid #d1d1d1 !important;
+}
+.wpcf7-form .flights-enquiry > label input[type='submit']{
+    width: 100%;
+    margin: 0;
+    padding: 9px 18px;
+    line-height: 1.5;
+    margin-top: 10px;
+}
+.wpcf7-form .flights-enquiry .ajax-loader {
+    position: absolute;
+    right: -10px;
+}
+div.flights-enquiry + div.wpcf7-response-output {
+    margin: 0.5em 1.7em 2em;
+}
+.flights-enquiry .wpcf7-not-valid-tip {
+    position: absolute;
+    bottom: -10px;
+}
