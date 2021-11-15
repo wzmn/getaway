@@ -9,7 +9,9 @@ Text Domain: getaway
 Template: getaway
 */
 
-
+.qodef-content .qodef-content-inner>.qodef-container>.qodef-container-inner, .qodef-content .qodef-content-inner>.qodef-full-width>.qodef-full-width-inner {
+    padding: 0 !important;
+}
 .qodef-drop-down .second {
     height: auto !important;
     /*overflow: hidden;
@@ -353,4 +355,9 @@ div.flights-enquiry + div.wpcf7-response-output {
 .flights-enquiry .wpcf7-not-valid-tip {
     position: absolute;
     bottom: -10px;
+}
+
+
+.cruises-form input {
+    border: 1px solid #d1d1d1 !important;
 }
